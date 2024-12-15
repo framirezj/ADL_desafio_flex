@@ -9,14 +9,16 @@ body{
 }
 
 .contactos{
-    background-color: blueviolet;
+    background-color: #FFF;
+    flex-grow: 2;
+    border: 1px solid #BEC1BB;
 }
 
 .mensajes{
-    flex-grow: 1;
+    background-color: #f8f8f8;
+    flex-grow: 6;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
