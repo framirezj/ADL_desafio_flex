@@ -30,12 +30,60 @@ body {
   display: flex;
 }
 
+/* section contactos */
 .contactos {
   background-color: #fff;
   flex-grow: 2;
-  border: 1px solid #bec1bb;
+  /* border: 1px solid #bec1bb; */
 }
 
+.perfil{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+  border-bottom: 2px solid #E8EBE4;
+  padding: 1rem 0 1rem 0;
+}
+
+.user{
+  display: flex;
+  gap: 1rem;
+}
+
+.user-image{
+  display: flex;
+  align-items: center;
+}
+
+.user-image img{
+  border-radius: 50%;
+  width: 2.8rem;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name h4{
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.name p{
+  margin: 0;
+  color: #BEC1BB;
+}
+
+.perfil-icons{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* section mensajes */
 .mensajes {
   background-color: #f8f8f8;
   flex-grow: 6;
